@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependency...
+      - npm install -g next
+  pre_build:
+    commands:
+      - printenv > .env
+  build:
+    commands:
+      - echo Compiling the Node.js code
+      - npm run buildx
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - 'out/*'

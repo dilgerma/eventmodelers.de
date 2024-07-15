@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "eventmodeling",
+    "eventsourcing"
+  ],
+  "posts": [
+    {
+          "title": "Legacy Systeme dokumentieren mit Eventmodeling",
+          "subtitle": "",
+          "date": "03.02.2024",
+          "file": "dokumentieren-von-legacy-systemen-mit-eventmodeling.md",
+          "slug": "/blog/dokumentieren-von-legacy-systemen-mit-eventmodeling",
+          "image": "/assets/blog/legacy/banner_small.png",
+          "tags": [
+            "eventmodeling"
+          ],
+          "enabled": true
+        },
+    {
+      "title": "Software ist schwer schätzbar, aber einfach planbar.",
+      "subtitle": "",
+      "date": "21.01.2024",
+      "file": "software-ist-schwer-schaetzbar-aber-einfach-planbar.md",
+      "slug": "/blog/software-ist-schwer-schaetzbar-aber-einfach-planbar",
+      "image": "/assets/blog/warum-ist-software-so-teuer/banner.png",
+      "tags": [
+        "know-how",
+        "eventmodeling"
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Das das perfekte Softwaremodell für Startups",
+      "subtitle": "",
+      "date": "31.12.2023",
+      "file": "das-ist-das-perfekte-softwaremodell-fuer-startups.md",
+      "slug": "/blog/das-ist-das-perfekte-softwaremodell-fuer-startups",
+      "image": "/assets/blog/startups/banner.png",
+      "tags": [
+        "eventmodeling",
+        "eventsourcing"
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Software dokumentieren mit Eventmodeling",
+      "subtitle": "",
+      "date": "26.12.2023",
+      "file": "software-dokumentieren-mit-eventmodelling.md",
+      "slug": "/blog/software-dokumentieren-mit-eventmodelling",
+      "image": "/assets/blog/eventmodelling/banner.png",
+      "tags": [
+        "eventmodeling"
+      ],
+      "enabled": true
+    }
+  ]
+}
