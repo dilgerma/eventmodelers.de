@@ -38,6 +38,10 @@ export default function Home() {
                                     <img width={"50%"} src={"/assets/eventsourcing-buch/cover.png"}/>
                                 </p>
 
+                                <p>
+                                    <a href={"https://leanpub.com/eventmodeling-and-eventsourcing"}>Das Buch wird hier bei LeanPub geschrieben</a>. Du kannst dich dort eintragen, um dich über Updates benachrichtigen zu lassen.
+                                </p>
+
 
                                 <div className={"has-text-centered top-margin"}>
                                     <b>&quot;Stop guessing the past with Eventsourcing. Stop guessing the Future with
@@ -54,10 +58,10 @@ export default function Home() {
                                     <h3>Foundations</h3>
                                     <ul className={"nolist"}>
                                         <li><s>Why you should care</s></li>
-                                        <li className={"blue"}>Eventsourcing - what is it? And more importantly, what is
-                                            it not?
+                                        <li><s>Eventsourcing - what is it? And more importantly, what is
+                                            it not?</s>
                                         </li>
-                                        <li>Planning Systems using Eventmodeling</li>
+                                        <li className={"blue"}>Planning Systems using Eventmodeling</li>
                                         <li>Concurrency, Consistency and eventual Consistency</li>
                                         <li>How about DDD?</li>
                                         <li>Anatomy of an eventsourced Application</li>

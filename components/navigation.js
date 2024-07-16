@@ -86,6 +86,9 @@ export default function Navigation() {
                     <Link href={"/videos"} className="navbar-item">
                         Alle Videos
                     </Link>
+                    <Link href={"/podcasts"} className="navbar-item">
+                                           Alle Podcasts
+                                       </Link>
                 </div>
             </div>
 

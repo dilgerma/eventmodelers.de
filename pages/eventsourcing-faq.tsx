@@ -59,7 +59,8 @@ export default function Home() {
                                 <div className={"marginal"}>Wie funktioniert Event-Versionierung</div>
                                 <div className={"marginal"}>Wie groß sollte man Events schneiden?</div>
                                 <div className={"marginal"}>Wie performant ist Eventsourcing?</div>
-                                <div className={"marginal"}>Wie löscht man? Mit „deleted“ Flags?</div>
+                                <div className={"marginal"}>Wie löscht man?</div>
+                                <div className={"marginal"}>Was sind Passiv-Agressive Events?</div>
                                 <div className={"marginal"}>Wie implementiert man unique constraints mit event sourcing? Reservation pattern?</div>
                                 <div className={"marginal"}>Gibt es empfehlende Fachliteratur?</div>
                             </div>

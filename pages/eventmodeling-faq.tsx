@@ -67,7 +67,10 @@ export default function Home() {
                                 <div className={"marginal"}>Muss Inhalt COMMAND = Inhalt EVENT sein? </div>
                                 <div className={"marginal"}>Was ist der Data Completeness Check?</div>
 
-                                <div className={"marginal"}>Kann ein Command mehrere Events erzeugen?</div>
+                                <div>
+                                    <Link href={"/faq/kann-ein-command-mehrere-events-erzeugen"}
+                                          className={"top-margin"}>
+                                        Kann ein Command mehrere Events erzeugen?</Link></div>
                                 <div className={"marginal"}>Wie werden Features im Eventmodell definiert?</div>
                                 <div className={"marginal"}>Für welche Art von Anwendungen eignet sich Event-Modeling <b>nicht</b>?</div>
                                 <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modelling in Deutsch vs englische Resultate?</div>
