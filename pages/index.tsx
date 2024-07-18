@@ -24,9 +24,8 @@ export default function Home() {
                         <h1 className={"huge"}>Eventmodelers - Software planbar und skalierbar entwickeln mit
                             Eventmodeling.</h1>
                         <h2 className="bigger">
-                            Eine &quot;Home Base&quot; für die deutsche Eventmodeling Community.<br/>
                             Business Prozesse verstehen. Software Schritt für Schritt verständlich dokumentieren und
-                            umsetzen.
+                            umsetzen mit <b>Eventmodeling.</b>
                         </h2>
 
                     </div>
@@ -40,28 +39,39 @@ export default function Home() {
                         <div className="column is-two-thirds">
 
                             <section className="padding bigger">
-                                            <h2>Auf dieser Seite findest du alle Informationen, um mit Eventmodeling zu starten.</h2>
-                                            <div className={"top-margin"}>
-                                                Einen ersten Überblick bekommst du in diesem Blogartikel: <Link
-                                                href={"/blog/software-dokumentieren-mit-eventmodelling"}>Software dokumentieren mit
-                                                Eventmodeling</Link>
-                                            </div>
-                                            <div className={"top-margin"}>
-                                                Allgemeine Fragen & Antworten findest du in den <Link href={"/eventmodeling-faq"}>FAQ</Link>
-                                            </div>
-                                            <div className={"top-margin"}>
-                                                Das <Link href={"/das-eventmodeling-tutorial"}>Eventmodeling Tutorial</Link> ist ein guter
-                                                Startpunkt.
-                                            </div>
-                                            <div className={"top-margin"}>
-                                                Beteilige dich an der <Link href={"/eventmodeling-community-of-practice"}>Community of
-                                                Practice</Link>.
-                                            </div>
-                                            <div className={"top-margin"}>
-                                                Softwaresysteme planbar und skalierbar zu entwickeln ist möglich, und zwar nicht nur einmal, sondern
-                                                immer.
-                                            </div>
-                                        </section>
+                                <h2>Auf dieser Seite findest du alle Informationen, um mit Eventmodeling zu
+                                    starten.</h2>
+                                <div className={"top-margin"}>
+                                    Wie entwickelst du Softwaresysteme planbar und konstant mit hoher Qualität?
+                                </div>
+                                <div className={"top-margin"}>
+                                    Einen ersten Überblick bekommst du in diesem Blogartikel: <Link
+                                    href={"/blog/software-dokumentieren-mit-eventmodelling"}>Software dokumentieren mit
+                                    Eventmodeling</Link>
+                                </div>
+                                <div className={"top-margin"}>
+                                    Allgemeine Fragen & Antworten findest du in den <Link
+                                    href={"/eventmodeling-faq"}>FAQ für Eventmodeling</Link> und den
+                                    &nbsp;<Link
+                                        href={"/eventsourcing-faq"}>FAQ für Eventsourcing</Link>
+                                </div>
+                                <div className={"top-margin"}>
+                                    Das <Link href={"/das-eventmodeling-tutorial"}>Eventmodeling Tutorial</Link> ist ein
+                                    guter
+                                    Startpunkt.
+                                </div>
+                                <div className={"top-margin"}>
+                                    Mit dem <Link href={"/eventmodeling-tooling"}>Eventmodeling Tooling</Link> kannst du
+                                    direkt losmodellieren. Du brauchst nur einen <i>kostenlosen</i> Miro Account.
+                                </div>
+                                <div className={"top-margin"}>Du suchst jemanden, der dich bei der Einführung und Umsetzung unterstützt? Die <a href={"www.nebulit.de"}>Nebulit GmbH</a> ist spezialisiert auf die Arbeit mit <b>Eventmodeling</b> und bietet auch Schulungen für komplette Softwareteams.</div>
+
+                                <div className={"top-margin"}>
+                                    Softwaresysteme planbar und skalierbar zu entwickeln ist möglich, und zwar nicht nur
+                                    einmal, sondern
+                                    immer.
+                                </div>
+                            </section>
 
                             <div className={"big-margin-top"}>
                                 <h3 className="title is-4">Letzte Posts</h3>
@@ -134,17 +144,16 @@ export default function Home() {
                                 <h3 className="title is-4">Workshops / Webinare</h3>
                                 <div className={"top-margin"}>
                                     <Link
-                                        href={"https://www.linkedin.com/events/fromideatorunningsoftware-inclu7213451160878252032/comments/"}>
+                                        href={"https://www.linkedin.com/events/eventmodelinglernenin60minuten7219636330178248705/comments/"}>
                                         <div className="box">
                                             <div>
-                                                <h3 className={"has-text-centered"}>17.07.2024 - Webinar kostenlos - &quot;From idea to running
-                                                    Software&quot;</h3>
+                                                <h3 className={"has-text-centered"}>14.08.2024 - Eventmodeling lernen in 60 Minuten</h3>
                                                 <br/>
                                                 <img
-                                                    src={"https://media.licdn.com/dms/image/D4D1EAQE-N3zGmNBZpw/event-background-image-crop_720_1280/0/1719826351913?e=1721631600&v=beta&t=YUhCxU9_m5yGtOClT4OmioxL4vtwlFz03N-vluwzFRg"}/>
+                                                    src={"https://media.licdn.com/dms/image/D4E1EAQGqid1pUeu8dA/event-background-image-crop_720_1280/0/1721296179508?e=1721912400&v=beta&t=q0Dg42auxewOXlOI8gX8EL8WYGrQQd2wBnymoTpnPiA"}/>
                                                 <div>
 
-                                                    Webinar (english) - kostenlos
+                                                    Webinar - kostenlos
                                                 </div>
                                             </div>
                                         </div>
@@ -152,7 +161,8 @@ export default function Home() {
                                     <div className={"top-margin"}>
                                         <Link href={"/eventmodeling-2x4"}>
                                             <div className="box">
-                                                <h3 className={"has-text-centered"}>Workshop - Eventmodeling Grundlagen 2x4</h3>
+                                                <h3 className={"has-text-centered"}>Workshop - Eventmodeling Grundlagen
+                                                    2x4</h3>
                                                 <div className={"has-text-centered"}>
                                                     <strong>Eventmodeling Grundlagen lernen an zwei Vormittagen</strong>
                                                     <div><img src={"/assets/2x4/2x4.jpeg"}/></div>

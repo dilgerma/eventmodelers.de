@@ -10,8 +10,9 @@ export default function Home() {
         <div>
             <div className={"top"}>
                 <SEO
-                                     title={"Die Eventmodeling FAQ"}
-                                 description={"Auf dieser Seite werden alle relevanten Fragen zu Eventmodeling nach und nach beantwortet. Du hast ebenfalls die Möglichkeit, eigene Fragen zu stellen, die dann für alle beantwortet werden."} keywords={"Eventmodeling, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
+                    title={"Die Eventmodeling FAQ"}
+                    description={"Auf dieser Seite werden alle relevanten Fragen zu Eventmodeling nach und nach beantwortet. Du hast ebenfalls die Möglichkeit, eigene Fragen zu stellen, die dann für alle beantwortet werden."}
+                    keywords={"Eventmodeling, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
 
             </div>
             <div className="content bigger">
@@ -20,7 +21,8 @@ export default function Home() {
                 <div className="contentElement">
 
                     <div className={"notification is-info is-light has-text-centered"}>
-                        Du hast eine Frage, die du hier veröffentlichen möchtest? Stell die Frage <a href={"https://tally.so/r/wkZ0r1"}>hier</a>
+                        Du hast eine Frage, die du hier veröffentlichen möchtest? Stell die Frage <a
+                        href={"https://tally.so/r/wkZ0r1"}>hier</a>
                     </div>
 
                     <div className={"topBorder container"}>
@@ -56,30 +58,40 @@ export default function Home() {
                                 <div className={"top-margin"}/>
                                 <div>
                                     <i className="fa-solid fa-question"></i><Link className={"left-margin"}
-                                                                               href={"/faq/01-warum-solltest-du-eventmodeling-lernen"}>Warum
+                                                                                  href={"/faq/01-warum-solltest-du-eventmodeling-lernen"}>Warum
                                     sollte ich Eventmodeling lernen?</Link>
                                 </div>
-                                <Link href={"/faq/braucht-man-eventsourcing-fuer-eventmodeling"} className={"top-margin"}>
+                                <Link href={"/faq/braucht-man-eventsourcing-fuer-eventmodeling"}
+                                      className={"top-margin"}>
                                     Braucht
                                     man Eventsourcing für Eventmodeling?
                                 </Link>
-                                <div className={"marginal"}>Was heißt der andere Ausdruck der Projektion? Also der systemschreibende Vorgang?</div>
-                                <div className={"marginal"}>Muss Inhalt COMMAND = Inhalt EVENT sein? </div>
-                                <div className={"marginal"}>Was ist der Data Completeness Check?</div>
+                                <div className={"marginal"}>Was heißt der andere Ausdruck der Projektion? Also der
+                                    systemschreibende Vorgang?
+                                </div>
+                                <div className={"marginal"}>Muss Inhalt COMMAND = Inhalt EVENT sein?</div>
+                                <div className={"marginal"}>
+                                    <Link href={"/faq/information-completeness-check"}
+                                          className={"top-margin"}>Was ist der Information Completeness Check?</Link></div>
 
                                 <div>
                                     <Link href={"/faq/kann-ein-command-mehrere-events-erzeugen"}
                                           className={"top-margin"}>
                                         Kann ein Command mehrere Events erzeugen?</Link></div>
                                 <div className={"marginal"}>Wie werden Features im Eventmodell definiert?</div>
-                                <div className={"marginal"}>Für welche Art von Anwendungen eignet sich Event-Modeling <b>nicht</b>?</div>
-                                <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modelling in Deutsch vs englische Resultate?</div>
-                                <div className={"marginal"}>Wie löscht man?</div>
+                                <div className={"marginal"}>Für welche Art von Anwendungen eignet sich
+                                    Event-Modeling <b>nicht</b>?
+                                </div>
+                                <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modelling in
+                                    Deutsch vs englische Resultate?
+                                </div>
                                 <div className={"marginal"}>Ersetzt Eventmodeling Jira?</div>
                                 <div className={"marginal"}>Was machst du wenn du bestehende Software übernimmst?</div>
                                 <div className={"marginal"}>Gibt es empfehlende Fachliteratur?</div>
                                 <div className={"marginal"}>Was sind die schlimmsten Hürden beim Event Modeling?</div>
-                                <div className={"marginal"}>Wie modelliert man die Reaktion auf ein Event in Modeling? Man sieht immer nur Reaktionen auf State.</div>
+                                <div className={"marginal"}>Wie modelliert man die Reaktion auf ein Event in Modeling?
+                                    Man sieht immer nur Reaktionen auf State.
+                                </div>
 
 
                             </div>

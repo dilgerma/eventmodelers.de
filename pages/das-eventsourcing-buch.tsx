@@ -61,8 +61,8 @@ export default function Home() {
                                         <li><s>Eventsourcing - what is it? And more importantly, what is
                                             it not?</s>
                                         </li>
-                                        <li className={"blue"}>Planning Systems using Eventmodeling</li>
-                                        <li>Concurrency, Consistency and eventual Consistency</li>
+                                        <li ><s>Planning Systems using Eventmodeling</s></li>
+                                        <li className={"blue"}>Concurrency, Consistency and eventual Consistency</li>
                                         <li>How about DDD?</li>
                                         <li>Anatomy of an eventsourced Application</li>
                                         <li>Designing Streams</li>
