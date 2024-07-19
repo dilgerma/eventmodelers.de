@@ -69,10 +69,14 @@ export default function Home() {
                                 <div className={"marginal"}>Was heißt der andere Ausdruck der Projektion? Also der
                                     systemschreibende Vorgang?
                                 </div>
-                                <div className={"marginal"}>Muss Inhalt COMMAND = Inhalt EVENT sein?</div>
+                                <div>
+                                    <Link href={"/faq/muss-inhalt-command-inhalt-event-sein"}
+                                          className={"top-margin"}>
+                                        Muss Inhalt Command = Inhalt Event sein?</Link></div>
                                 <div className={"marginal"}>
                                     <Link href={"/faq/information-completeness-check"}
-                                          className={"top-margin"}>Was ist der Information Completeness Check?</Link></div>
+                                          className={"top-margin"}>Was ist der Information Completeness Check?</Link>
+                                </div>
 
                                 <div>
                                     <Link href={"/faq/kann-ein-command-mehrere-events-erzeugen"}
