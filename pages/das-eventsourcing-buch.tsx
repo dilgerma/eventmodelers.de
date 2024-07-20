@@ -62,9 +62,9 @@ export default function Home() {
                                             it not?</s>
                                         </li>
                                         <li ><s>Planning Systems using Eventmodeling</s></li>
-                                        <li className={"blue"}>Concurrency, Consistency and eventual Consistency</li>
+                                        <li ><s>Concurrency, Consistency and eventual Consistency</s></li>
+                                        <li className={"blue"}>Anatomy of an eventsourced Application</li>
                                         <li>How about DDD?</li>
-                                        <li>Anatomy of an eventsourced Application</li>
                                         <li>Designing Streams</li>
                                     </ul>
 
