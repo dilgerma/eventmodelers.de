@@ -61,11 +61,13 @@ export default function Home() {
                                                                                   href={"/faq/01-warum-solltest-du-eventmodeling-lernen"}>Warum
                                     sollte ich Eventmodeling lernen?</Link>
                                 </div>
+                                <div className={"marginal"}>
                                 <Link href={"/faq/braucht-man-eventsourcing-fuer-eventmodeling"}
                                       className={"top-margin"}>
                                     Braucht
                                     man Eventsourcing für Eventmodeling?
                                 </Link>
+                                </div>
                                 <div className={"marginal"}>Was heißt der andere Ausdruck der Projektion? Also der
                                     systemschreibende Vorgang?
                                 </div>
@@ -83,13 +85,15 @@ export default function Home() {
                                           className={"top-margin"}>
                                         Kann ein Command mehrere Events erzeugen?</Link></div>
                                 <div className={"marginal"}>Wie werden Features im Eventmodell definiert?</div>
-                                <div className={"marginal"}>Für welche Art von Anwendungen eignet sich
-                                    Event-Modeling <b>nicht</b>?
+                                <div className={"marginal"}><Link href={"/faq/wann-eignet-sich-eventmodeing-nicht"}>Für
+                                    welche Art von Anwendungen eignet sich
+                                    Event-Modeling <b>nicht</b>?</Link>
                                 </div>
                                 <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modelling in
                                     Deutsch vs englische Resultate?
                                 </div>
-                                <div className={"marginal"}>Ersetzt Eventmodeling Jira?</div>
+                                <div className={"marginal"}>
+                                    <Link href={"/faq/ersetzt-eventmodeling-jira"}>Ersetzt Eventmodeling Jira?</Link></div>
                                 <div className={"marginal"}>Was machst du wenn du bestehende Software übernimmst?</div>
                                 <div className={"marginal"}>Gibt es empfehlende Fachliteratur?</div>
                                 <div className={"marginal"}>Was sind die schlimmsten Hürden beim Event Modeling?</div>

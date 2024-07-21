@@ -63,18 +63,18 @@ export default function Home() {
                                         </li>
                                         <li ><s>Planning Systems using Eventmodeling</s></li>
                                         <li ><s>Concurrency, Consistency and eventual Consistency</s></li>
-                                        <li className={"blue"}>Anatomy of an eventsourced Application</li>
-                                        <li>How about DDD?</li>
+                                        <li><s>Anatomy of an eventsourced Application</s></li>
+                                        <li className={"blue"}>Foundations of DDD?</li>
                                         <li>Designing Streams</li>
                                     </ul>
 
                                     <h3>From Zero to running Software</h3>
                                     <ul className={"nolist"}>
                                         <li>From Zero to Running Software</li>
-                                        <li>Eventsourcing with Axon</li>
-                                        <li>Planning the System</li>
+                                        <li>Introduction to the Axon Framework</li>
                                         <li>Tech Stack & Documentation</li>
                                         <li>Vertical Slicing</li>
+                                        <li>Planning the System</li>
                                         <li>The first Slice - State Change, State View</li>
                                         <li>Implementing Automations</li>
                                         <li>Distributed Transactions and how to handle them</li>
