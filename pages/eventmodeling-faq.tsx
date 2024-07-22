@@ -89,13 +89,12 @@ export default function Home() {
                                     welche Art von Anwendungen eignet sich
                                     Event-Modeling <b>nicht</b>?</Link>
                                 </div>
-                                <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modelling in
-                                    Deutsch vs englische Resultate?
+                                <div className={"marginal"}>Wie sind Deine Erfahrungen zum Thema Event Modeling in Deutsch oder Englisch?
                                 </div>
                                 <div className={"marginal"}>
                                     <Link href={"/faq/ersetzt-eventmodeling-jira"}>Ersetzt Eventmodeling Jira?</Link></div>
                                 <div className={"marginal"}>Was machst du wenn du bestehende Software übernimmst?</div>
-                                <div className={"marginal"}>Gibt es empfehlende Fachliteratur?</div>
+                                <div className={"marginal"}><Link href={"/faq/fachliteratur"}>Gibt es empfehlende Fachliteratur?</Link></div>
                                 <div className={"marginal"}>Was sind die schlimmsten Hürden beim Event Modeling?</div>
                                 <div className={"marginal"}>Wie modelliert man die Reaktion auf ein Event in Modeling?
                                     Man sieht immer nur Reaktionen auf State.
