@@ -16,7 +16,6 @@ export default function Home() {
                     keywords={"Eventmodeling FAQ, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Microservices, Reaktive Systeme"}/>
 
             </div>
-            tmodell
             <div className="content bigger">
 
 

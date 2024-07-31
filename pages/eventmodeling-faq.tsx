@@ -57,7 +57,7 @@ export default function Home() {
 
                                 <div className={"top-margin"}/>
                                 <div>
-                                    <i className="fa-solid fa-question"></i><Link className={"left-margin"}
+                                    <Link className={"left-margin"}
                                                                                   href={"/faq/01-warum-solltest-du-eventmodeling-lernen"}>Warum
                                     sollte ich Eventmodeling lernen?</Link>
                                 </div>
@@ -93,7 +93,7 @@ export default function Home() {
                                 </div>
                                 <div className={"marginal"}>
                                     <Link href={"/faq/ersetzt-eventmodeling-jira"}>Ersetzt Eventmodeling Jira?</Link></div>
-                                <div className={"marginal"}>Was machst du wenn du bestehende Software übernimmst?</div>
+                                <div className={"marginal"}><Link href={"/faq/neue-software-uebernehmen"}>Was machst du wenn du bestehende Software übernimmst?</Link></div>
                                 <div className={"marginal"}><Link href={"/faq/fachliteratur"}>Gibt es empfehlende Fachliteratur?</Link></div>
                                 <div className={"marginal"}>Was sind die schlimmsten Hürden beim Event Modeling?</div>
                                 <div className={"marginal"}>Wie modelliert man die Reaktion auf ein Event in Modeling?
