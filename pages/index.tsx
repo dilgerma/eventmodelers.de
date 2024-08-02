@@ -150,7 +150,7 @@ export default function Home() {
                                                 <h3 className={"has-text-centered"}>14.08.2024 - Eventmodeling lernen in 60 Minuten</h3>
                                                 <br/>
                                                 <img
-                                                    src={"https://media.licdn.com/dms/image/D4E1EAQGqid1pUeu8dA/event-background-image-crop_720_1280/0/1721296179508?e=1721912400&v=beta&t=q0Dg42auxewOXlOI8gX8EL8WYGrQQd2wBnymoTpnPiA"}/>
+                                                    src={"https://media.licdn.com/dms/image/D4E1EAQGqid1pUeu8dA/event-background-image-crop_720_1280/0/1721296179508?e=1723212000&v=beta&t=fRgg-ylkIp1PBjYzx1k7K8P0Dn5ck7QvUmLTBGRG-Rs"}/>
                                                 <div>
 
                                                     Webinar - kostenlos

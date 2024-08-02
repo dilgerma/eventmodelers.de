@@ -9,8 +9,9 @@ export default function Home() {
         <div>
             <div className={"top"}>
                 <SEO
-                       title={"Das Eventsourcing Buch"}
-                   description={"Das Buch das endlich praktisch aufzeigt, wie Eventsourcing in modernen Softwaresystemen eingesetzt werden kann."} keywords={"Eventsourcing, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
+                    title={"Das Eventsourcing Buch"}
+                    description={"Das Buch das endlich praktisch aufzeigt, wie Eventsourcing in modernen Softwaresystemen eingesetzt werden kann."}
+                    keywords={"Eventsourcing, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
             </div>
             <div className="content bigger">
 
@@ -28,13 +29,42 @@ export default function Home() {
                             shadow={false}>
                             <div className={"has-text-centered nolist"}>
 
-                                <section>
+
+                                <h1>
+                                    <div className={"blue has-text-centered"}>Das Eventsourcing Buch
+                                    </div>
+                                </h1>
+
+                                <p>
+                                    <img width={"50%"} src={"/assets/eventsourcing-buch/cover.png"}/>
+                                </p>
+
+                                <p>
+                                    <a href={"https://leanpub.com/eventmodeling-and-eventsourcing"}>Das Buch wird hier
+                                        bei LeanPub geschrieben</a>. Du kannst dich dort eintragen, um dich über Updates
+                                    benachrichtigen zu lassen.
+                                </p>
+
+
+                                <div className={"has-text-centered top-margin"}>
+                                    <b>&quot;Stop guessing the past with Eventsourcing. Stop guessing the Future with
+                                        Eventmodeling..&quot;</b>
+                                </div>
+
+                                <section className={"section has-text-centered"}>
+                                    Auf dieser Seite kannst du live den Fortschritt bei der Fertigstellung des
+                                    Eventsourcing Buchs verfolgen.
+                                    Das Buch wird aktuell geschrieben und fertig geschriebene Kapitel sind hier
+                                    durchgestrichen.
+                                </section>
+                                <section className={"section has-text-centered"}>
                                     <ul className={"nolist"}>
                                         <h3><s>Foundations</s></h3>
                                         <ul className={"nolist"}>
                                             <li><s>Notes</s></li>
                                             <li><s>Why you should care</s></li>
-                                            <li><s>Eventsourcing - what is it? And more importantly, what is it...</s></li>
+                                            <li><s>Eventsourcing - what is it? And more importantly, what is it...</s>
+                                            </li>
                                             <li><s>Planning Systems using Eventmodeling</s></li>
                                             <li><s>CQRS, Concurrency, Consistency and eventual Consistency</s></li>
                                             <li><s>Internal / External Data</s></li>
@@ -46,50 +76,49 @@ export default function Home() {
                                         <ul className={"nolist"}>
                                             <li><s>Brainstorming</s></li>
                                             <li><s>Modeling Use Cases with Wireframes</s></li>
-                                            <li><s>“Given/When/Then” Scenarios</s></li>
-                                            <li className={"blue"}>Use Case: Clear Cart</li>
-                                            <li>Use Case: Submit Cart</li>
-                                            <li>Use Case: Inventory Changed</li>
-                                            <li>Use Case: Price Changed</li>
-                                            <li>Use Case: Voucher Notification</li>
-                                        </ul>
-                                        <h3>From Zero to Running Software</h3>
-                                        <ul className={"nolist"}>
-                                            <li>The first Slice - State Change, State View</li>
-                                            <li>Vertical Slicing</li>
-                                            <li>Implementing Automations</li>
-                                            <li>Example Integration with Apache Kafka and Translations</li>
-                                            <li>Breaking Change is inevitable</li>
-                                            <li>Putting the pieces together</li>
-                                        </ul>
-                                        <h3>Implementation Patterns</h3>
-                                        <ul className={"nolist"}>
-                                            <li>Projected Read Model</li>
-                                            <li>Live Model</li>
-                                            <li>The Sync / Async UI Problem</li>
-                                            <li>Set Based Validations</li>
-                                            <li>The “TODO List” Pattern and why I don’t use Sagas</li>
-                                            <li>Closing the Books</li>
-                                            <li>The Reservation Pattern</li>
-                                        </ul>
-                                        <h3>Appendix</h3>
-                                        <ul className={"nolist"}>
-                                            <li>Tech Stack & Documentation</li>
-                                            <li>Brief introduction to Axon</li>
-                                            <li>Eventstores</li>
-                                            <li>Axon Server</li>
-                                            <li>EventstoreDB</li>
-                                        </ul>
+                                            <li><s>“Given/When/Then” Scenarios</s>
+                                        </li>
+                                        <li><s>Use Case: Clear Cart</s></li>
+                                        <li><s>Use Case: Submit Cart</s></li>
+                                        <li><s>Use Case: Inventory Changed</s></li>
+                                        <li className={"blue"}>Use Case: Price Changed</li>
                                     </ul>
-                                    ```
-                                </section>
-                            </div>
-                        </Card>
+                                    <h3>From Zero to Running Software</h3>
+                                    <ul className={"nolist"}>
+                                        <li>The first Slice - State Change, State View</li>
+                                        <li>Vertical Slicing</li>
+                                        <li>Implementing Automations</li>
+                                        <li>Example Integration with Apache Kafka and Translations</li>
+                                        <li>Breaking Change is inevitable</li>
+                                        <li>Putting the pieces together</li>
+                                    </ul>
+                                    <h3>Implementation Patterns</h3>
+                                    <ul className={"nolist"}>
+                                        <li>Projected Read Model</li>
+                                        <li>Live Model</li>
+                                        <li>The Sync / Async UI Problem</li>
+                                        <li>Set Based Validations</li>
+                                        <li>The “TODO List” Pattern and why I don’t use Sagas</li>
+                                        <li>Closing the Books</li>
+                                        <li>The Reservation Pattern</li>
+                                    </ul>
+                                    <h3>Appendix</h3>
+                                    <ul className={"nolist"}>
+                                        <li>Tech Stack & Documentation</li>
+                                        <li>Brief introduction to Axon</li>
+                                        <li>Eventstores</li>
+                                        <li>Axon Server</li>
+                                        <li>EventstoreDB</li>
+                                    </ul>
+                                </ul>
+                            </section>
                     </div>
-                </div>
-
-
+                </Card>
             </div>
         </div>
-    )
+
+
+</div>
+</div>
+)
 }
