@@ -5,17 +5,29 @@
   ],
   "posts": [
     {
-          "title": "Legacy Systeme dokumentieren mit Eventmodeling",
-          "subtitle": "",
-          "date": "03.02.2024",
-          "file": "dokumentieren-von-legacy-systemen-mit-eventmodeling.md",
-          "slug": "/blog/dokumentieren-von-legacy-systemen-mit-eventmodeling",
-          "image": "/assets/blog/legacy/banner_small.png",
-          "tags": [
-            "eventmodeling"
-          ],
-          "enabled": true
-        },
+      "title": "Wie modelliert man asynchrone Prozesse mit Eventmodeling?",
+      "subtitle": "",
+      "date": "10.08.2024",
+      "file": "asynchrone-prozesse-in-eventmodeling-modellieren.md",
+      "slug": "/blog/asynchrone-prozesse-in-eventmodeling-modellieren",
+      "image": "/assets/blog/asynchrone-prozesse/banner.png",
+      "tags": [
+        "eventmodeling"
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Legacy Systeme dokumentieren mit Eventmodeling",
+      "subtitle": "",
+      "date": "03.02.2024",
+      "file": "dokumentieren-von-legacy-systemen-mit-eventmodeling.md",
+      "slug": "/blog/dokumentieren-von-legacy-systemen-mit-eventmodeling",
+      "image": "/assets/blog/legacy/banner_small.png",
+      "tags": [
+        "eventmodeling"
+      ],
+      "enabled": true
+    },
     {
       "title": "Software ist schwer schätzbar, aber einfach planbar.",
       "subtitle": "",

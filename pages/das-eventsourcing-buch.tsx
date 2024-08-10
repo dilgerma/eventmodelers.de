@@ -81,11 +81,14 @@ export default function Home() {
                                         <li><s>Use Case: Clear Cart</s></li>
                                         <li><s>Use Case: Submit Cart</s></li>
                                         <li><s>Use Case: Inventory Changed</s></li>
-                                        <li className={"blue"}>Use Case: Price Changed</li>
+                                            <li><s>Use Case: Price Changed</s></li>
                                     </ul>
                                     <h3>From Zero to Running Software</h3>
                                     <ul className={"nolist"}>
-                                        <li>The first Slice - State Change, State View</li>
+                                        <li><s>Brief introduction to Axon</s></li>
+                                        <li><s>Project Setup</s></li>
+                                        <li><s>The first Slice - State Change, State View</s></li>
+                                        <li  className={"blue"}>Implementing State Views Slices using Projections</li>
                                         <li>Vertical Slicing</li>
                                         <li>Implementing Automations</li>
                                         <li>Example Integration with Apache Kafka and Translations</li>

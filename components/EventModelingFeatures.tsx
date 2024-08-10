@@ -13,10 +13,10 @@ export default function EventModelingFeatures(props: {}) {
                                 Miro notwendig sind.
                             </li>
                             <li>✅ Software-Modellierung mit <b>Eventmodeling</b> in Miro</li>
-                            <li>✅ Scenario Editor</li>
                             <li>✅ Aktueller Dev Stand</li>
                             <li>✅ <b>Data Ownership</b> - Keinerlei Datenpersistenz & Nutzung außerhalb Miro
                             </li>
+                            <li>🚫 Scenario Editor</li>
                             <li>🚫 Live Modell Validierung</li>
                             <li>🚫 Code Generierung</li>
                             <li>🚫 Branding</li>
