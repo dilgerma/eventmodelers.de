@@ -152,10 +152,6 @@ export default function Home() {
                                                 <br/>
                                                 <img
                                                     src={"/assets/webinar.png"}/>
-                                                <div>
-
-                                                    Webinar - kostenlos
-                                                </div>
                                             </div>
                                         </div>
                                     </Link>

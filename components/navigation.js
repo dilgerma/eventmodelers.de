@@ -89,9 +89,9 @@ export default function Navigation() {
                     <Link href={"/podcasts"} className="navbar-item">
                                            Alle Podcasts
                                        </Link>
-                   {/* <Link href={"/social-media"} className="navbar-item">
+                    <Link href={"/social-media"} className="navbar-item">
                         Social-Media
-                    </Link>*/}
+                    </Link>
                 </div>
             </div>
 
@@ -101,10 +101,8 @@ export default function Navigation() {
                     Workshops & Kurse
                 </a>
                 <div className="navbar-dropdown">
-                    <Link href="/eventmodeling-2x4" className="navbar-item">
-                        Eventmodeling 2x4 Schulung
-                    </Link>
-                    <Link href="/eventmodeling-workshop" className="navbar-item">
+
+                    <Link href="https://training.nebulit.de/software-planen-mit-eventmodeling/" className="navbar-item">
                         Eventmodeling Workshop
                     </Link>
 
