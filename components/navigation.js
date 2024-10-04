@@ -89,6 +89,9 @@ export default function Navigation() {
                     <Link href={"/podcasts"} className="navbar-item">
                                            Alle Podcasts
                                        </Link>
+                   {/* <Link href={"/social-media"} className="navbar-item">
+                        Social-Media
+                    </Link>*/}
                 </div>
             </div>
 

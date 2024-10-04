@@ -18,6 +18,7 @@ export default function Home() {
                 description={"Auf diesen Seiten und allen Unterseiten findest du hoffentlich wertvolle Informationen zu Eventmodeling und Eventsourcing. Vor allem findest du konkrete Anleitungen und Sourcecode wir Systeme mit Eventmodeling geplant und mit Eventsourcing umgesetzt werden können."}
                 keywords={"Eventmodeling, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
 
+
             <section className="hero is-primary is-medium">
                 <div className="hero-body">
                     <div className="container">
@@ -144,10 +145,10 @@ export default function Home() {
                                 <h3 className="title is-4">Workshops / Webinare</h3>
                                 <div className={"top-margin"}>
                                     <Link
-                                        href={"https://www.linkedin.com/events/eventmodelinglernenin60minuten7219636330178248705/comments/"}>
+                                        href={"https://training.nebulit.de/software-planen-mit-eventmodeling/"}>
                                         <div className="box">
                                             <div>
-                                                <h3 className={"has-text-centered"}>14.08.2024 - Eventmodeling lernen in 60 Minuten</h3>
+                                                <h3 className={"has-text-centered"}>Workshop: Software planen mit Eventmodeling</h3>
                                                 <br/>
                                                 <img
                                                     src={"/assets/webinar.png"}/>
@@ -158,19 +159,6 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </Link>
-                                    <div className={"top-margin"}>
-                                        <Link href={"/eventmodeling-2x4"}>
-                                            <div className="box">
-                                                <h3 className={"has-text-centered"}>Workshop - Eventmodeling Grundlagen
-                                                    2x4</h3>
-                                                <div className={"has-text-centered"}>
-                                                    <strong>Eventmodeling Grundlagen lernen an zwei Vormittagen</strong>
-                                                    <div><img src={"/assets/2x4/2x4.jpeg"}/></div>
-                                                    <br/>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
                                 </div>
 
                             </div>
