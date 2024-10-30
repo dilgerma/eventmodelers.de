@@ -53,37 +53,37 @@ export default function Home() {
                                 </div>
 
                                 <div className={"top-margin notification is-info is-light"}>
-                                    "This is not just another technical book—it’s a roadmap to more predictable,
+                                    &quot;This is not just another technical book—it’s a roadmap to more predictable,
                                     maintainable, and successful software projects. Martin Dilger has created an
                                     invaluable resource that I believe will influence how we approach software
-                                    development for years to come." - Gabriel. N. Schenker
+                                    development for years to come.&quot; - Gabriel. N. Schenker
                                 </div>
                                 <div className={"top-margin notification is-info is-light"}>
-                                    "By reading this book, you won’t just learn new techniques — you’ll transform the
+                                    &quot;By reading this book, you won’t just learn new techniques — you’ll transform the
                                     way you approach software development. You’ll gain clear, actionable steps to solve
                                     problems, communicate with unprecedented clarity, and estimate projects more
                                     accurately. In essence, you’ll be equipped to dismantle complexity and foster
-                                    collaboration like never before." - Adam Dymitruk
+                                    collaboration like never before.&quot; - Adam Dymitruk
                                 </div>
                                 <div className={"top-margin notification is-info is-light"}>
 
 
-                                    "Focusing on a practical implementaion really worked for me. I appreciate the work
-                                    you have done here." - Gary Craine
-
-                                </div>
-                                <div className={"top-margin notification is-info is-light"}>
-
-
-                                    "Highly recommended reading" - Michael Plagge
+                                    &quot;Focusing on a practical implementaion really worked for me. I appreciate the work
+                                    you have done here.&quot; - Gary Craine
 
                                 </div>
                                 <div className={"top-margin notification is-info is-light"}>
 
 
-                                    "Thanks for writing the book, it will save me so much time and toil. I really like
+                                    &quot;Highly recommended reading&quot; - Michael Plagge
+
+                                </div>
+                                <div className={"top-margin notification is-info is-light"}>
+
+
+                                    &quot;Thanks for writing the book, it will save me so much time and toil. I really like
                                     the Todo pattern to simplify the Saga. Also using an aggregate for uniqueness check
-                                    is very nice." - William Power
+                                    is very nice.&quot; - William Power
                                 </div>
 
                                 <section>
@@ -114,7 +114,7 @@ export default function Home() {
                                     <ul className={"nolist"}>
                                         <li>Brainstorming</li>
                                         <li>Modeling Use Cases with Wireframes</li>
-                                        <li>"Given / When / Then" Scenarios</li>
+                                        <li>Given / When / Then Scenarios</li>
                                         <li>Use Case: Clear Cart</li>
                                         <li>Use Case: Submit Cart</li>
                                         <li>Use Case: Inventory Changed</li>
@@ -126,7 +126,7 @@ export default function Home() {
                                     <ul className={"nolist"}>
                                         <li>Technology Stack</li>
                                         <li>Brief introduction to Axon</li>
-                                        <li>Implementing the first slice - "Add Item"</li>
+                                        <li>Implementing the first slice - &quot;Add Item&quot;</li>
                                         <li>Implementing state view slices using Live-Projections</li>
                                         <li>Implementing Remove-Item and Clear-Cart</li>
                                         <li>Example Integration with Apache Kafka and Translations</li>
@@ -144,7 +144,7 @@ export default function Home() {
                                         <li>Pattern: The (partially) synchronous Projection</li>
                                         <li>Pattern: The Logic Read Model</li>
                                         <li>Pattern: Snapshots</li>
-                                        <li>Pattern: "Processor-TODO-List" - Pattern</li>
+                                        <li>Pattern: Processor-TODO-List - Pattern</li>
                                         <li>Pattern: The Reservation Pattern</li>
                                         <li>Where to go from here?</li>
                                         <li>Notes</li>
