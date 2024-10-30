@@ -37,6 +37,15 @@ export default function Home() {
                     <div className={"bigger has-text-centered blue"}>
                         Mit echten Requirements arbeiten.
                     </div>
+                    <div className={"bigger has-text-centered blue"}>
+                        Test-First Development mit generierten Tests direkt aus dem Eventmodell
+                    </div>
+                    <div className={"bigger has-text-centered blue"}>
+                        Generierte Dokumentation mit Eventcatalog
+                    </div>
+                    <div className={"bigger has-text-centered blue"}>
+                        80% weniger manuell geschriebener Code
+                    </div>
                 </div>
 
 
