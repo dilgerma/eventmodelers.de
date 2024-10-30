@@ -16,7 +16,7 @@ export default function Home() {
         <div>
             <div className={""}>
                 <SEO
-                    title={"Das Eventmodeling Miro Plugin"}
+                    title={"Eventmodeling Accelerate-Tools"}
                     description={"Eventmodeling und Miro passen perfekt zusammen. Die kollaborative Arbeit auf dem Whiteboard erlaubt es, schnell und effektiv zusammenzuarbeiten. Mit unserem Miro Tooling könnnen einfach Eventmodelle beliebiger Größe erstellt und weiterverareitet werden."}
                     keywords={"eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
 

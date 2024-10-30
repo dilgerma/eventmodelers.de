@@ -13,14 +13,15 @@ export default function EventModelingFeatures(props: {}) {
                                 Miro notwendig sind.
                             </li>
                             <li>✅ Software-Modellierung mit <b>Eventmodeling</b> in Miro</li>
-                            <li>✅ Scenario Editor</li>
-                            <li>✅ Aktueller Dev Stand</li>
                             <li>✅ <b>Data Ownership</b> - Keinerlei Datenpersistenz & Nutzung außerhalb Miro
                             </li>
                             <li>🚫 Live Modell Validierung</li>
+                            <li>🚫 Scenario Editor</li>
                             <li>🚫 Code Generierung</li>
-                            <li>🚫 Branding</li>
-                            <li>🚫 Max. 5 User pro Board</li>
+                            <li>🚫 Love Prototyp</li>
+                            <li>🚫 Data Trail & Live Modell Analyse</li>
+                            <li>🚫 User Flows</li>
+                            <li>🚫 Information Completeness Check</li>
                         </ul>
                         <div>
                             <p className={"top-margin has-text-centered"}>
@@ -39,55 +40,33 @@ export default function EventModelingFeatures(props: {}) {
                             <li>✅ Community Features inklusive</li>
                             <li>✅ Live Modell Validierung</li>
                             <li>✅ E-Mail Support</li>
-                            <li>✅ Unlimitierte User</li>
-                            <li>✅ Unlimitierte User</li>
-                            <li>✅ Unlimitierte Teams</li>
-                            <li>✅ Unlimitierte Modelle</li>
-                            <li>✅ Code Generierung inklusive</li>
+                            <li>✅ Unlimitierte User, Boards und Modelle</li>
+                            <li>✅ Eigene Code Generatoren</li>
                             <li>✅ Export zu Eventcatalog. Beispiel <a target={"_blank"}
                                                                       href={"https://eventcatalog-demo.nebulit.de/"}>hier</a>
                             </li>
-                            <li>✅ Eventsourcing Blue Print</li>
-                            <li>✅ Axon Framework Integration (in Arbeit)</li>
-                            <li>👷 In Browser Prototyp (in Arbeit)</li>
-                            <li>👷 Typescript Live Prototyping (in Arbeit)</li>
-                            <li>👷 AWS Lambda Stack (in Arbeit)</li>
+                            <li>✅ Axon Framework Code Generator</li>
+                            <li>✅ Information-Completeness-Check</li>
+                            <li>✅ Live In-Browser Prototyp</li>
                             <li>✅ 60 Minuten Onboarding Call</li>
-                            <li>✅ 7 Tage kostenloser Test</li>
+                            <li>✅ 14 Tage kostenloser Test</li>
                         </ul>
 
                         <div className={"top-margin"}/>
                         <div className={"columns"}>
                             <div className={"column has-text-centered"}>Monatliche Kosten pro Benutzer: <div
-                            ><span className={"huge"}> 59 €</span> / <span className={"small"}> mtl.</span></div>
+                            ><span className={"huge"}> 99 €</span> / <span className={"small"}> mtl.</span></div>
                                 <div>inkl. Setup</div>
                                 <div>inkl. 15 Minuten Onboarding Call</div>
+                                <div>Cost-Cap bei 495,00 € / mtl. ohne Benutzerlimit</div>
                             </div>
-                            <div className={"column has-text-centered"}>Lieber einmal kaufen?
-                                <div>Unbegrenzte Benutzer & Teams</div>
-                                <div>inkl. Setup</div>
-                                <div>inkl. 60 Minuten Onboarding Call</div>
-                                <div>keine monatlichen Kosten</div>
-                                <div className={"top-margin has-text-centered"}>
-                                    <a target="_blank"
-                                       href="https://outlook.office365.com/owa/calendar/NebulitGmbH@nebulit.de/bookings/s/SchaAYI1q02_E0rbpW5Xhw2"
-                                       className={"button is-success"}>
-                                        <i className="fa-solid fa-phone padding"></i>
-                                        <span className={"bigger"}>Jetzt informieren.</span></a>
-                                </div>
-                            </div>
+
 
                         </div>
 
 
                         <hr/>
-                        <div>
-                            <h3 className={"has-text-centered"}>Custom Code Generator</h3>
-                            <div>
-                                Es ist möglich einen eigenen Code-Generator zu entwickeln (ggf. mit zusätzlichen Kosten
-                                verbunden). Weitere Details erhalten Sie im kostenlosen Info-Gespräch.
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>

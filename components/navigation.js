@@ -53,7 +53,7 @@ export default function Navigation() {
                 </a>
                 <div className="navbar-dropdown">
                     <Link href="/eventmodeling-tooling" className="navbar-item">
-                        Eventmodeling Miro Tooling
+                        Eventmodeling "Accelerate"-Tools
                     </Link>
 
 
