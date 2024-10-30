@@ -130,6 +130,33 @@ export default function Home() {
                                                 title={"Introduction to Miro Tooling"}/>
                                         </div>
 
+                                        <div className={"column is-6"}>
+                                            <LoomVideo
+                                                video={"5eaca02d19eb4c6c96e1ee4623ab9171"}
+                                                desc={"TODO List Pattern"}
+                                                title={"TODO List Pattern"}/>
+                                        </div>
+
+                                        <div className={"column is-6"}>
+                                            <LoomVideo
+                                                video={"033ce2aa6a764de5b86d2547f06a53d1"}
+                                                desc={"Live Prototyping using Eventmodeling"}
+                                                title={"Live Prototyping using Eventmodeling"}/>
+                                        </div>
+                                        <div className={"column is-6"}>
+                                            <LoomVideo
+                                                video={"526d8deeb3e84959807503e74c5c3d3a"}
+                                                desc={"Eventmodeling Data Trail"}
+                                                title={"Eventmodeling Data Trail"}/>
+                                        </div>
+
+                                        <div className={"column is-6"}>
+                                            <LoomVideo
+                                                video={"91393c84323a4f948750a340d827af98"}
+                                                desc={"Code Generation with Eventmodeling"}
+                                                title={"Code Generation with Eventmodeling"}/>
+                                        </div>
+
 
                                     </div>
                                 </section>
