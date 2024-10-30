@@ -307,15 +307,10 @@ export default function Home() {
 
                                             <div>
                                                 <div className={"top-margin"}/>
-                                                <h4>Spring Boot</h4>
-
-                                                Spring Boot Setup inkl. Postgres als Eventstore
-
+                                                <h4>Spring Boot / Axon</h4>
+                                                Axon / Spring Boot Code Generator - generiert 80% des Produktions-Codes inklusive Test-Cases.
                                                 <div className={"top-margin"}/>
-                                                <h4>Spring Boot / Axon (demnächst) </h4>
-
-                                                <div className={"top-margin"}/>
-                                                <h4>TypeScript Prototype (Work in Progress)</h4>
+                                                <h4>Live-Prototyp</h4>
 
                                                 Generierung eines Live “In Browser” Prototypen aus dem Eventmodell
 
