@@ -18,7 +18,7 @@ export default function EventModelingFeatures(props: {}) {
                                 <li>🚫 Live Modell Validierung</li>
                                 <li>🚫 Scenario Editor</li>
                                 <li>🚫 Code Generierung</li>
-                                <li>🚫 Love Prototyp</li>
+                                <li>🚫 Live Prototyp</li>
                                 <li>🚫 Data Trail & Live Modell Analyse</li>
                                 <li>🚫 User Flows</li>
                                 <li>🚫 Information Completeness Check</li>
