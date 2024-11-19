@@ -43,7 +43,7 @@ export default function Home() {
                                         <div className={"column"}>
                                             <h3>Eventmodeling & Eventsourcing Podcast mit Adam Dymitruk</h3>
                                             <Video
-                                                desc={"Starting the podcasst. Breaking the Aggregate - with Dynamic Consistency Boundary."}
+                                                desc={"Starting the podcast. Breaking the Aggregate - with Dynamic Consistency Boundary."}
                                                 video={"L9FSmSaQWuQ"} title={"Episode 1"}/>
                                             <Video
                                                 desc={"Privacy and Eventsourcing. Given / When / Thens. How Vertical Slice Architectures help."}
