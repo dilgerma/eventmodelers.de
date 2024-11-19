@@ -2,7 +2,7 @@ export default function EventModelingFeatures(props: {}) {
     return (<div className="content container bigger padding">
             <div className="contentElement">
                 <div className={"columns"}>
-                    <div className={"column notification is-info is-light padding"}>
+                    <div className={"column whitebg notification is-info is-light padding"}>
                         <h3 className={"has-text-centered"}>Community</h3>
                         <div>
                             <ul>
@@ -54,10 +54,10 @@ export default function EventModelingFeatures(props: {}) {
                             <div className={"top-margin"}/>
                             <div className={"columns"}>
                                 <div className={"column has-text-centered"}>Monatliche Kosten pro Benutzer: <div
-                                ><span className={"huge"}> 99 €</span> / <span className={"small"}> mtl.</span></div>
+                                ><span className={"huge"}> 399 € </span> / <span className={"small"}> jährlich <small>( 50 € / mtl. )</small></span>
+                                </div>
                                     <div>inkl. Setup</div>
                                     <div>inkl. 15 Minuten Onboarding Call</div>
-                                    <div>Cost-Cap bei 495,00 € / mtl. ohne Benutzerlimit</div>
                                 </div>
 
 
@@ -74,6 +74,7 @@ export default function EventModelingFeatures(props: {}) {
                         </div>
                     </div>
                 </div>
+                <div className={"top-margin"}/>
                 <div className={"columns"}>
                     <div className={"column notification is-info is-light padding"}>
                         <h3 className={"has-text-centered"}>Team Accelerate-Programm</h3>

@@ -38,16 +38,39 @@ export default function Home() {
                                 </h1>
 
                                 <div className={"top-margin"}/>
-
                                 <section>
                                     <div className={"columns is-multiline"}>
                                         <div className={"column"}>
-                                          <h3>Working Draft Podcast 606</h3>
+                                            <h3>Eventmodeling & Eventsourcing Podcast mit Adam Dymitruk</h3>
+                                            <Video
+                                                desc={"Starting the podcasst. Breaking the Aggregate - with Dynamic Consistency Boundary."}
+                                                video={"L9FSmSaQWuQ"} title={"Episode 1"}/>
+                                            <Video
+                                                desc={"Privacy and Eventsourcing. Given / When / Thens. How Vertical Slice Architectures help."}
+                                                video={"EUydf8OdNDc"} title={"Episode 2"}/>
+                                            <Video
+                                                desc={"AI Integration. New timeline in Given / When / Thens. Security and Eventsourcing."}
+                                                video={"uX4_03cbJtU"} title={"Episode 3"}/>
+                                        </div>
+
+                                    </div>
+                                </section>
+                                <section>
+                                    <div className={"columns is-multiline"}>
+                                        <div className={"column"}>
+                                            <h3>Working Draft Podcast 606</h3>
                                             <p>
                                                 Dev, Business, Design & Marketing effektiv vereint
                                             </p>
                                             <p>
-                                                Martin identifiziert das Ermitteln und Kommunizieren von Requirements als das größte Problem im Software-Engineering und stellt seinen Event-Modelling-Ansatz als Lösungsvorschlag vor. Mit uns spielt er einen entsprechenden Workshop durch, der alle Stakeholder an einen Tisch holt und die umzusetzende Software als eventgetriebenes System planen lässt. Von der Philosophie des Ansatzes über Parallelen zu Domain Driven Design (siehe Revision 556) bis hin zur Weiterentwicklung des Modells über die Zeit wird keine Plaungsphase außer acht gelassen.
+                                                Martin identifiziert das Ermitteln und Kommunizieren von Requirements
+                                                als das größte Problem im Software-Engineering und stellt seinen
+                                                Event-Modelling-Ansatz als Lösungsvorschlag vor. Mit uns spielt er einen
+                                                entsprechenden Workshop durch, der alle Stakeholder an einen Tisch holt
+                                                und die umzusetzende Software als eventgetriebenes System planen lässt.
+                                                Von der Philosophie des Ansatzes über Parallelen zu Domain Driven Design
+                                                (siehe Revision 556) bis hin zur Weiterentwicklung des Modells über die
+                                                Zeit wird keine Plaungsphase außer acht gelassen.
                                             </p>
                                             <p>
                                                 <a href={"https://workingdraft.de/606/"}>Zum Podcast</a>
