@@ -53,8 +53,8 @@ export default function EventModelingFeatures(props: {}) {
 
                             <div className={"top-margin"}/>
                             <div className={"columns"}>
-                                <div className={"column has-text-centered"}>Monatliche Kosten pro Benutzer: <div
-                                ><span className={"huge"}> 399 € </span> / <span className={"small"}> jährlich <small>( 50 € / mtl. )</small></span>
+                                <div className={"column has-text-centered"}>Kosten pro Benutzer-Lizenz: <div
+                                ><span className={"huge"}> 499 € </span> / <span className={"small"}> jährlich <small>( 50 € / mtl. )</small></span>
                                 </div>
                                     <div>inkl. Setup</div>
                                     <div>inkl. 15 Minuten Onboarding Call</div>

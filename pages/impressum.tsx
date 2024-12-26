@@ -23,12 +23,12 @@ export default function Home() {
                             Angaben gemäß § 5 TMG:
                         </p>
                         <p>
-                            <b>NebulIT GmbH</b>
+                            <b>Nebulit GmbH</b>
                         </p>
                         <p>
                             Postanschrift:<br/>
-                            Jahnstraße 4<br/>
-                            83119 Obing<br/>
+                            Martinistraße 7<br/>
+                            83370 Seeon-Seebruck<br/>
                         </p>
                         <p>
                             Kontakt:<br/>
