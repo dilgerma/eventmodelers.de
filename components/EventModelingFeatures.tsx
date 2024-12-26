@@ -47,6 +47,9 @@ export default function EventModelingFeatures(props: {}) {
                                 </li>
                                 <li>✅ Axon Framework Code Generator</li>
                                 <li>✅ Information-Completeness-Check</li>
+                                <li>✅ Data Path Analyse</li>
+                                <li>✅ Classic System Modelling</li>
+                                <li>✅ Aggregate View</li>
                                 <li>✅ Live In-Browser Prototyp - direkt live Modelle validieren</li>
                                 <li>✅ 14 Tage kostenloser Test (endet automatisch)</li>
                             </ul>i
