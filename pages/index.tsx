@@ -22,11 +22,9 @@ export default function Home() {
             <section className="hero is-primary is-medium">
                 <div className="hero-body">
                     <div className="container">
-                        <h1 className={"huge"}>Eventmodelers - Software planbar und skalierbar entwickeln mit
-                            Eventmodeling.</h1>
+                        <h1 className={"huge"}>Die moderne Art Software-Systeme zu designen</h1>
                         <h2 className="bigger">
-                            Business Prozesse verstehen. Software Schritt für Schritt verständlich dokumentieren und
-                            umsetzen mit <b>Eventmodeling.</b>
+                            Modellieren ist das neue Coden. AI Integration mit Slice-based Architekturen, Software-Modellierung und Event-Sourcing.
                         </h2>
 
                     </div>
@@ -40,8 +38,7 @@ export default function Home() {
                         <div className="column is-two-thirds">
 
                             <section className="padding bigger">
-                                <h2>Auf dieser Seite findest du alle Informationen, um mit Eventmodeling zu
-                                    starten.</h2>
+                                <h2></h2>
                                 <div className={"top-margin"}>
                                     Wie entwickelst du Softwaresysteme planbar und konstant mit hoher Qualität?
                                 </div>
@@ -155,6 +152,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </Link>
+
                                 </div>
 
                             </div>
