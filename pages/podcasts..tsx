@@ -45,7 +45,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Starting the podcast. Breaking the Aggregate - with Dynamic Consistency Boundary."}
                                                 video={"L9FSmSaQWuQ"} title={"Episode 1"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In der ersten Episode unseres Podcasts haben wir verschiedene Themen
                                                 angesprochen und möchten künftige Folgen kompakt und praxisnah halten –
                                                 ideal für den Weg zur Arbeit oder zwischendurch. Ein spannendes Thema
@@ -79,20 +79,20 @@ export default function Home() {
                                             <Video
                                                 desc={"Privacy and Eventsourcing. Given / When / Thens. How Vertical Slice Architectures help."}
                                                 video={"EUydf8OdNDc"} title={"Episode 2"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In dieser Podcast-Episode diskutieren die Hosts die Vor- und Nachteile
                                                 von Event Modeling, Event Sourcing und traditionellen
                                                 Git-Entwicklungspraktiken. Sie vergleichen trunk-basierte Entwicklung
                                                 mit Feature-basierter Entwicklung und erläutern, wie Event Sourcing
                                                 Entwickler dabei unterstützt, Konflikte zu minimieren und die Qualität
                                                 des Codes zu wahren. Es wird auch auf die Bedeutung von isolierten
-                                                "Slices" eingegangen, die es Teams ermöglichen, parallel und effizient
+                                                &quot;Slices&quot; eingegangen, die es Teams ermöglichen, parallel und effizient
                                                 zu arbeiten, ohne sich gegenseitig zu behindern.
                                             </p>
                                             <ul className={"nolist"}>
                                                 <li><strong>Event Sourcing und Event Modeling</strong> bieten eine
                                                     strukturierte Möglichkeit, Konflikte zu vermeiden, indem Entwickler
-                                                    in isolierten "Slices" arbeiten.
+                                                    in isolierten &quot;Slices&quot; arbeiten.
                                                 </li>
                                                 <li><strong>Trunk-basierte Entwicklung</strong> kann zu Problemen
                                                     führen, insbesondere bei der Verwendung von Feature-Toggles und
@@ -121,7 +121,7 @@ export default function Home() {
                                             <Video
                                                 desc={"AI Integration. New timeline in Given / When / Thens. Security and Eventsourcing."}
                                                 video={"uX4_03cbJtU"} title={"Episode 3"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In dieser Podcast-Episode wird das Thema Event Modeling aus praktischer
                                                 Sicht behandelt. Der Gastgeber erklärt, wie Event Modeling erfolgreich
                                                 in verschiedenen Bereichen wie Tests, UI-Design und Security angewendet
@@ -153,7 +153,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Keeping things simple"}
                                                 video={"EOPh8rTg_dA"} title={"Episode 4"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In dieser Podcast-Episode diskutieren Adam und Martin die praktischen
                                                 Anwendungen von Event Modeling und Event Sourcing. Sie erläutern, wie
                                                 Event Modeling als Kommunikationsbrücke zwischen technischen und
@@ -188,8 +188,8 @@ export default function Home() {
                                             <Video
                                                 desc={"A case against Upcasters"}
                                                 video={"W7mpfjW7nhw"} title={"Episode 5"}/>
-                                            <p>
-                                                n dieser Episode diskutieren Adam und Martin spannende Erkenntnisse aus
+                                            <p className={"top-margin"}>
+                                                In dieser Episode diskutieren Adam und Martin spannende Erkenntnisse aus
                                                 einem Event-Sourcing-Workshop. Sie gehen auf die Herausforderungen der
                                                 Versionierung von Events ein, insbesondere wie man mit veralteten Events
                                                 umgeht und welche Vor- und Nachteile Upcasters mit sich bringen. Ein
@@ -224,8 +224,8 @@ export default function Home() {
                                             <Video
                                                 desc={"Event Modeling Scope and more"}
                                                 video={"JZWHv-V7Xeg"} title={"Episode 6"}/>
-                                            <p>
-                                                In dieser Episode von Adam & Martin's Podcast geht es um die Bedeutung
+                                            <p className={"top-margin"}>
+                                                In dieser Episode von Adam & Martin&apos;s Podcast geht es um die Bedeutung
                                                 der Vermeidung unnötigen Couplings in Softwarearchitekturen. Sie
                                                 diskutieren, wie durch sorgfältige Modellierung und die Schaffung
                                                 klarer, entkoppelter Komponenten das Wachstum und die Wartbarkeit von
@@ -257,7 +257,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Pure Command Handlers and Sparse Timelines"}
                                                 video={"F02n6qntPAA"} title={"Episode 7"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In dieser Episode des Event Modeling Podcasts sprechen Adam und Martin
                                                 über die Kernaspekte und die Herausforderungen der Implementierung von
                                                 Event Modeling und Event Sourcing in Unternehmen. Sie erläutern
@@ -289,7 +289,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Event Sourcing Frameworks and more"}
                                                 video={"e_IzVh15unc"} title={"Episode 8"}/>
-                                            <p>In dieser Episode sprechen Adam und Martin über die praktischen
+                                            <p className={"top-margin"}>In dieser Episode sprechen Adam und Martin über die praktischen
                                                 Anwendungen von Event Sourcing und der Slice-Methode, und wie diese
                                                 Techniken dabei helfen, effiziente und skalierbare Systeme zu bauen. Sie
                                                 teilen Erfahrungen aus der Praxis und zeigen, wie man mit Hilfe von Fake
@@ -322,7 +322,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Maintaining Event Models and more"}
                                                 video={"uUVHR75ORl4"} title={"Episode 9"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 Im Podcast von Adam & Martin wird die rasante Entwicklung der Event
                                                 Modeling Community thematisiert, die sich immer mehr selbst organisiert.
                                                 Die zweite Ausgabe der Veranstaltung, die dieses Jahr in München
@@ -355,7 +355,7 @@ export default function Home() {
                                             <Video
                                                 desc={"Avoiding the Pattern Soup"}
                                                 video={"-m9hXz_wQXk"} title={"Episode 10"}/>
-                                            <p>In dieser Episode des Podcasts diskutieren Adam & Martin, wie Event
+                                            <p className={"top-margin"}>In dieser Episode des Podcasts diskutieren Adam & Martin, wie Event
                                                 Modeling hilft, Teams durch konkrete Beispiele und praxisorientierte
                                                 Ansätze zu vereinen. Sie heben hervor, wie wichtig es ist, klare,
                                                 greifbare Konzepte zu schaffen, die eine enge Zusammenarbeit fördern und
@@ -383,7 +383,7 @@ export default function Home() {
                                             <Video
                                                 desc={"No Code Reviews"}
                                                 video={"D84blR0TVno"} title={"Episode 11"}/>
-                                            <p>
+                                            <p className={"top-margin"}>
                                                 In dieser Episode von Adam & Martin geht es um zentrale Themen im
                                                 Bereich Domain-Driven Design (DDD) und Event Sourcing. Es wird
                                                 diskutiert, wie Aggregates richtig verwendet werden sollten, um
@@ -420,12 +420,106 @@ export default function Home() {
                                             <Video
                                                 desc={"Slice, Slice Baby"}
                                                 video={"cwQgRqmEvqs"} title={"Episode 12"}/>
+                                            <p className={"top-margin"}>
+                                                In dieser Folge diskutieren Adam & Martin über den Umgang mit Fehlern in
+                                                Event Sourcing-Systemen und wann Fehler als Events persistiert werden
+                                                sollten. Sie betonen die Bedeutung von Audit-Logs und
+                                                Nachvollziehbarkeit, weisen aber auch auf Risiken wie
+                                                Denial-of-Service-Angriffe hin. Zudem gibt es Einblicke in Webinare und
+                                                die Community rund um Event Sourcing. Abschließend kündigen sie das
+                                                nächste Webinar an, das sich mit Prozessen und Automatisierung
+                                                beschäftigen wird.
+                                            </p>
+                                            <ul className="nolist">
+                                                <li><b>Fehler als Event oder nicht?</b> – Nur wenn ein Fehler eine
+                                                    Nachverfolgbarkeit erfordert (z. B. für Audits), sollte er als Event
+                                                    gespeichert werden.
+                                                </li>
+                                                <li><b>Denial-of-Service-Risiken</b> – Event Sourcing-Systeme müssen
+                                                    sich vor unkontrollierten Eingaben schützen, um Speicherüberlauf zu
+                                                    vermeiden.
+                                                </li>
+                                                <li><b>Webinare & Community</b> – Martin veranstaltet monatliche
+                                                    Webinare zu Event Sourcing, die über LinkedIn angekündigt werden.
+                                                </li>
+                                                <li><b>Nächstes Thema: Prozesse & Automatisierung</b> – Das nächste
+                                                    Webinar wird sich intensiv mit Prozessen und Automatisierungen
+                                                    beschäftigen.
+                                                </li>
+                                            </ul>
                                             <Video
                                                 desc={"Stop, Collaborate and listen"}
                                                 video={"7MPi2PqTuME"} title={"Episode 13"}/>
+                                            <p className={"top-margin"}>
+                                                In dieser Episode sprechen Adam und Martin über die Herausforderungen
+                                                bei der Modellierung von optionalen Feldern und der Verwendung von
+                                                mehreren Ereignissen für ein einziges Kommando, insbesondere in
+                                                Szenarien wie einer Buchung mit einer optionalen Raucherzimmer-Option.
+                                                Sie diskutieren, wie man solche Szenarien mit Event Modeling und Event
+                                                Sourcing modellieren kann, und welche Überlegungen dabei eine Rolle
+                                                spielen. Das Thema wird vertieft, indem sie den Einsatz von Künstlicher
+                                                Intelligenz (KI) in der Code-Generierung und der Ereignismodellierung
+                                                erkunden, wobei sie betonen, dass ein präzises und detailliertes
+                                                Modellieren für geschäftsspezifische Anforderungen unerlässlich ist.
+                                            </p>
+                                            <ul className="nolist">
+                                                <li><strong>Optionalfelder und mehrere Ereignisse:</strong> Es ist
+                                                    möglich, ein Kommando zu verwenden, das mehrere Ereignisse erzeugt,
+                                                    aber es hängt vom Fall ab, ob dies sinnvoll ist.
+                                                </li>
+                                                <li><strong>Komplexität bei Transaktionen:</strong> Wenn eine Option
+                                                    (wie das Raucherzimmer) fehlschlägt, stellt sich die Frage, ob die
+                                                    Buchung weiterhin bestehen bleibt oder auch rückgängig gemacht wird.
+                                                </li>
+                                                <li><strong>Einfachheit bevorzugen:</strong> Bei der Modellierung sollte
+                                                    man immer auf einfache Lösungen setzen und nicht unnötig komplexe
+                                                    Muster wie Sagas einführen.
+                                                </li>
+                                                <li><strong>AI in der Code-Generierung:</strong> KI kann helfen, das
+                                                    Ereignismodell und den Code zu generieren, wobei eine präzise
+                                                    Modellierung notwendig ist, um ein genaues System zu erstellen.
+                                                </li>
+                                                <li><strong>Wichtigkeit von temporalen Daten:</strong> KI funktioniert
+                                                    besonders gut bei der Modellierung von zeitlich geordneten
+                                                    Ereignissen, da sie eine lineare Erzählstruktur benötigt.
+                                                </li>
+                                            </ul>
+
                                             <Video
                                                 desc={"AI Nightmares and Expert Help"}
                                                 video={"7MPi2PqTuME"} title={"Episode 14"}/>
+                                            <p className={"top-margin"}>
+                                                In dieser Episode teilen Adam und Martin ihre Einsichten zu Event
+                                                Modeling und Event Sourcing, wobei sie besonders auf die Bedeutung
+                                                dieser Methoden in einer sich schnell verändernden Branche eingehen. Sie
+                                                sprechen über die Herausforderungen, denen Unternehmen gegenüberstehen,
+                                                und wie Event Sourcing als eine Art „Sicherheitsnetz“ dienen kann, um
+                                                die Entwicklung in turbulenten Zeiten zu unterstützen. Zudem werden
+                                                Themen wie der Einfluss von Künstlicher Intelligenz und die
+                                                Notwendigkeit von Expertenrat behandelt. Hören Sie rein, wenn Sie lernen
+                                                möchten, wie Sie mit Event Modeling und Event Sourcing den Überblick
+                                                behalten und Ihre Projekte effektiv vorantreiben können.
+                                            </p>
+                                            <ul className="nolist">
+                                                <li><strong>Event Modeling und Event Sourcing</strong> bieten
+                                                    Unternehmen ein robustes Set an &quot;Schutzmaßnahmen&quot; in unsicheren
+                                                    Zeiten.
+                                                </li>
+                                                <li><strong>Der Einfluss von Künstlicher Intelligenz</strong> wird
+                                                    zunehmend spürbar, und Unternehmen sollten sich nicht von den
+                                                    Veränderungen lähmen lassen.
+                                                </li>
+                                                <li>Expertenrat ist entscheidend, um in der turbulenten, sich schnell
+                                                    verändernden Technologiebranche nicht den Anschluss zu verlieren.
+                                                </li>
+                                                <li><strong>Experten helfen dabei, Event Modeling und Event
+                                                    Sourcing</strong> effektiv zu implementieren und dabei die
+                                                    Komplexität zu beherrschen.
+                                                </li>
+                                                <li><strong>Verlässliche Methoden</strong> wie Event Sourcing bieten
+                                                    Orientierung und eine klare Struktur für Softwareentwicklungsteams.
+                                                </li>
+                                            </ul>
                                         </div>
 
                                     </div>

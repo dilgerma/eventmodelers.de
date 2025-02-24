@@ -19,7 +19,7 @@ export default function Video(props: { loom?: boolean, video: string, playlist?:
             {props.loom ?
                 <div className={"top-margin"}>
                     <iframe
-                        src="https://www.loom.com/embed/bf77466e592848098008928403a2b9fc"
+                        src={`https://www.loom.com/embed/${props.video}`}
                         frameBorder="0" allowFullScreen width="500"
                         height="281"></iframe></div>
                     : <span/>}

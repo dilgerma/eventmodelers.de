@@ -18,58 +18,64 @@ export default function Home() {
                 description={"Auf diesen Seiten und allen Unterseiten findest du hoffentlich wertvolle Informationen zu Eventmodeling und Eventsourcing. Vor allem findest du konkrete Anleitungen und Sourcecode wir Systeme mit Eventmodeling geplant und mit Eventsourcing umgesetzt werden können."}
                 keywords={"Eventmodeling, eventbasierte Entwicklung, Softwareentwicklung, Domain-Driven Design, kollaborative Software Modellierung, CQRS, Eventbasierte Architektur, Agile Entwicklung, Event Storming, Eventmodeling, Microservices, Reaktive Systeme"}/>
 
-
             <section className="hero is-primary is-medium">
                 <div className="hero-body">
                     <div className="container">
                         <h1 className={"huge"}>Die moderne Art Software-Systeme zu designen</h1>
                         <h2 className="bigger">
-                            Modellieren ist das neue Coden. AI Integration mit Slice-based Architekturen, Software-Modellierung und Event-Sourcing.
+                            Modellieren ist das neue Coden. AI Integration mit Slice-based Architekturen,
+                            Software-Modellierung und Event-Sourcing.
                         </h2>
 
                     </div>
                 </div>
             </section>
 
-
             <section className="section">
                 <div className="container content">
                     <div className="columns">
-                        <div className="column is-two-thirds">
+                        <div className="column is-two-thirds nolist">
+                            <h2>Die Event Modeling / Event Sourcing Roadmap 2025</h2>
+                            <div className={"top-margin"}>
+                                <h3>Schritt 1 - der Newsletter</h3>
+                                <div>Der Newsletter kommt einmal wöchentlich - <a
+                                    href={"https://newsletter.nebulit.de/"}>Hier anmelden</a></div>
+                            </div>
+                            <div className={"top-margin"}>
+                                <h3>Schritt 2 - das Buch</h3>
+                                <div>Lies das Buch - <a href={"https://eventsourcingbook.com/"}>Understanding
+                                    Eventsourcing</a></div>
+                                <div>
+                                    <img src={"https://eventsourcingbook.com/cover.png"} width={"250px"}/>
+                                </div>
+                            </div>
+                            <div className={"top-margin"}>
+                                <h3>Schritt 3 - der Kurs</h3>
+                                <div>Trag dich für die Warteliste des Kurses ein- <a
+                                    href={"https://nebulit-gmbh.kit.com/understanding-eventsourcing"}>Hier gehts zur
+                                    Warteliste</a></div>
+                            </div>
+                            <div className={"top-margin"}>
+                                <h3>Schritt 4 - der Workshop</h3>
+                                    <div className={""}>
+<img width={"250px"} src={"https://nebulit.de/assets/nebulit.png"}/>
+                                    </div>
+                                    <div className={""}>
+                                        <div>Deine Domäne - transparent aufgearbeitet an einem Tag in einem interaktiven
+                                            Workshop
+                                        </div>
+                                        <div>Die <a href={"https://nebulit.de/schulungen/schulung-software-mit-eventmodeling-cqrs-und-eventsourcing"}>Nebulit GmbH</a> bietet Training &
+                                            Consulting für Event Modeling & Event Sourcing
+                                        </div>
+                                </div>
 
-                            <section className="padding bigger">
-                                <h2></h2>
-                                <div className={"top-margin"}>
-                                    Wie entwickelst du Softwaresysteme planbar und konstant mit hoher Qualität?
+                            </div>
+                            <div className={"top-margin"}>
+                                <h3>Schritt 5 - arbeite mit Experten</h3>
+                                <div>
+                                    <a target={"_blank"} href={"https://nebulit.de/accelerate"}> Hol dir Experten ins Team</a> zum einfachen monatlichen Fixpreis
                                 </div>
-                                <div className={"top-margin"}>
-                                    Einen ersten Überblick bekommst du in diesem Blogartikel: <Link
-                                    href={"/blog/software-dokumentieren-mit-eventmodelling"}>Software dokumentieren mit
-                                    Eventmodeling</Link>
-                                </div>
-                                <div className={"top-margin"}>
-                                    Allgemeine Fragen & Antworten findest du in den <Link
-                                    href={"/eventmodeling-faq"}>FAQ für Eventmodeling</Link> und den
-                                    &nbsp;<Link
-                                        href={"/eventsourcing-faq"}>FAQ für Eventsourcing</Link>
-                                </div>
-                                <div className={"top-margin"}>
-                                    Das <Link href={"/das-eventmodeling-tutorial"}>Eventmodeling Tutorial</Link> ist ein
-                                    guter
-                                    Startpunkt.
-                                </div>
-                                <div className={"top-margin"}>
-                                    Mit dem <Link href={"/eventmodeling-tooling"}>Eventmodeling Tooling</Link> kannst du
-                                    direkt losmodellieren. Du brauchst nur einen <i>kostenlosen</i> Miro Account.
-                                </div>
-                                <div className={"top-margin"}>Du suchst jemanden, der dich bei der Einführung und Umsetzung unterstützt? Die <a href={"www.nebulit.de"}>Nebulit GmbH</a> ist spezialisiert auf die Arbeit mit <b>Eventmodeling</b> und bietet auch Schulungen für komplette Softwareteams.</div>
-
-                                <div className={"top-margin"}>
-                                    Softwaresysteme planbar und skalierbar zu entwickeln ist möglich, und zwar nicht nur
-                                    einmal, sondern
-                                    immer.
-                                </div>
-                            </section>
+                            </div>
 
                             <div className={"big-margin-top"}>
                                 <h3 className="title is-4">Letzte Posts</h3>
@@ -141,18 +147,43 @@ export default function Home() {
                             <div>
                                 <h3 className="title is-4">Workshops / Webinare</h3>
                                 <div className={"top-margin"}>
-                                    <Link
-                                        href={"https://training.nebulit.de/software-planen-mit-eventmodeling/"}>
+                                <Link
+                                        href={"https://nebulit-gmbh.kit.com/understanding-eventsourcing"}>
                                         <div className="box">
                                             <div>
-                                                <h3 className={"has-text-centered"}>Workshop: Software planen mit Eventmodeling</h3>
+                                                <h3 className={"has-text-centered"}>Der Onlinekurs zum Buch!
+                                                    - &quot;Implementing Eventsourcing&quot;</h3>
+                                                <div>Event Modeling praktisch lernen - Schritt für Schritt</div>
+                                                <img
+                                                    src={"/assets/kurs.png"}/>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                    <Link
+                                        href={"https://eventsourcingbook.com/"}>
+                                        <div className="box">
+                                            <div>
+                                                <h3 className={"has-text-centered"}>Das Event Modeling & Event Sourcing
+                                                    Buch</h3>
+                                                <div className={"has-text-centered"}>Mehr als 1600 Leser bisher</div>
+                                                <br/>
+                                                <img
+                                                    src={"https://eventsourcingbook.com/cover.png"}/>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                    <Link
+                                        href={"https://nebulit.de/schulungen/schulung-software-mit-eventmodeling-cqrs-und-eventsourcing"}>
+                                        <div className="box">
+                                            <div>
+                                                <h3 className={"has-text-centered"}>Workshop: Software planen mit
+                                                    Eventmodeling</h3>
                                                 <br/>
                                                 <img
                                                     src={"/assets/webinar.png"}/>
                                             </div>
                                         </div>
                                     </Link>
-
                                 </div>
 
                             </div>

@@ -49,6 +49,13 @@ export default function Home() {
                                     <div className={"columns is-multiline"}>
                                         <div className={"column is-6"}>
                                             <iframe
+                                                src="https://www.linkedin.com/embed/feed/update/urn:li:share:7298715335933722624"
+                                                height="938" width="504" frameBorder="0"
+                                                title="Eingebetteter Beitrag"></iframe>
+
+                                        </div>
+                                        <div className={"column is-6"}>
+                                            <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7242786361907331073"
                                                 height="1695" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
@@ -57,21 +64,21 @@ export default function Home() {
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7243491175532253184"
-                                                height="1155" width="504" frameBorder="0" 
+                                                height="1155" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7245839614538579970"
-                                                height="1488" width="504" frameBorder="0" 
+                                                height="1488" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7239340090957705216"
-                                                height="1214" width="504" frameBorder="0" 
+                                                height="1214" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
@@ -108,49 +115,49 @@ export default function Home() {
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7235012528307617792"
-                                                height="1821" width="504" frameBorder="0" 
+                                                height="1821" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7232662802551762945"
-                                                height="1968" width="504" frameBorder="0" 
+                                                height="1968" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7229934713233174529"
-                                                height="1680" width="504" frameBorder="0" 
+                                                height="1680" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7227418313025327104"
-                                                height="1711" width="504" frameBorder="0" 
+                                                height="1711" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7226334370171617280"
-                                                height="1777" width="504" frameBorder="0" 
+                                                height="1777" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7244195645589213184"
-                                                height="987" width="504" frameBorder="0" 
+                                                height="987" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
                                         <div className={"column is-6"}>
                                             <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7222205768320577536"
-                                                height="1495" width="504" frameBorder="0" 
+                                                height="1495" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
 
                                         </div>
