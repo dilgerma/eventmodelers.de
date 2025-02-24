@@ -49,6 +49,13 @@ export default function Home() {
                                     <div className={"columns is-multiline"}>
                                         <div className={"column is-6"}>
                                             <iframe
+                                                src="https://www.linkedin.com/embed/feed/update/urn:li:share:7297705807322755072"
+                                                height="1471" width="504"
+                                                title="Eingebetteter Beitrag"></iframe>
+
+                                        </div>
+                                        <div className={"column is-6"}>
+                                            <iframe
                                                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:7298715335933722624"
                                                 height="938" width="504" frameBorder="0"
                                                 title="Eingebetteter Beitrag"></iframe>
